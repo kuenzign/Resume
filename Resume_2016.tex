@@ -1,7 +1,5 @@
 \documentclass[12pt]{article}
-%\documentclass[12pt]{amsart} % You can also try the amsart class
 
-\usepackage{amsmath, amsfonts, amssymb, amsthm} % The standard AMS (American Mathematical Society) packages you don't need to load these if you are using the document class amsart
 \usepackage{graphicx} % Packages to works with images
 \usepackage{color} %Allows you to change the color of the font.
 \usepackage{multicol} % Used to create multiple columns on a page (or part of a page)
@@ -10,21 +8,6 @@
 %\usepackage{fullpage} % Smaller page margins. If you need further customization, it's probably better to use the geometry package mentioned below.
 \usepackage{hyperref} % Allows you to add hyperlinks to your document.
 \usepackage{subcaption}
-
-
-\theoremstyle{plain} %Defining useful math environments with the style ``plain''
-\newtheorem{theorem}{Theorem}[section]
-\newtheorem{corollary}[theorem]{Corollary}
-\newtheorem{lemma}[theorem]{Lemma}
-\newtheorem{conjecture}[theorem]{Conjecture}
-\newtheorem{requirement}[theorem]{Requirement}
-\newtheorem{proposition}[theorem]{Proposition}
-
-\theoremstyle{definition} %Defining useful math environments with the style ``definition''
-\newtheorem{definition}[theorem]{Definition}
-\newtheorem{example}[theorem]{Example}
-\newtheorem{remark}[theorem]{Remark}
-\newtheorem{algorithm}[theorem]{Algorithm}
 
 \usepackage{inconsolata}
 \usepackage[sfdefault, light]{roboto} %Google's Roboto font. Disable this if you don't have it installed on your system
@@ -37,17 +20,13 @@
 \definecolor{accent}{RGB}{255, 97, 0}
 \color{main}
 
-\usepackage{mhchem}
+\usepackage{paralist}
 \usepackage{tabto}
 \usepackage{ulem}
 \usepackage{pdfpages}
 \usepackage{geometry} %allows you to edit the margins
 \geometry{letterpaper, portrait, margin=0.5in}
 %\usepackage[textheight=9.5in,textwidth=7in]{geometry}
-
-%\renewcommand{\qedsymbol}{ 
-%\begin{scriptsize} \textbf{Q.E.D.} 
-%\end{scriptsize} }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -66,7 +45,7 @@
 
 
 \subsubsection*{\color{head}Objective:}
-\small To obtain a computer science summer internship starting in May 2016 with an organization seeking a highly motivated, resourceful individual with prior experience and motivation to continue expanding knowledge in the field.
+\small To obtain a computer science summer internship for the year 2016 with an organization seeking a highly motivated, resourceful individual with prior experience and motivation to continue expanding knowledge in the field.
 
 \subsubsection*{\color{head}Education:}
 \subsubsection*{\textnormal{{\color{accent} Grove City College }\color{head} -- Grove City, PA}}
@@ -77,27 +56,34 @@
 
 \subsubsection*{\color{head}Experience:}
 \subsubsection*{\textnormal{{\color{accent} Intern Developer }\color{head} -- Actuarial Compass LLC -- Cincinnati, OH	\hfill Summer 2014 and 2015}}
-\begin{itemize}
+\begin{compactitem}
 	\item Worked on developing actuarial software using PostgreSQL databases to store functions and user data, C\# for back-end implementation of actuarial calculations, and WinForms for GUI and front-end access.
 	\item Created a small website designed to sell classes in actuarial science to colleges and businesses in the field by using Moodle for managing course material and Laravel for the main web page and layout.
-\end{itemize}
+\end{compactitem}
 
 \subsubsection*{\color{head}Technical Skills:}
-\begin{itemize}
+\begin{compactitem}
 	\item {\color{accent} Programming Languages} -- \texttt{C, C++, C\#, Java, Python, SQL, Visual Basic 6.0}
 	\item {\color{accent} Web-based Languages} -- \texttt{PHP, HTML/CSS}
 	\item {\color{accent} Utilities and Scripting} -- \texttt{Git, LaTeX, AutoHotkey}
 	\item {\color{accent} Frameworks} -- \texttt{WinForms, Laravel, Moodle}
 	\item {\color{accent} Software} -- \texttt{Visual Studio, PyCharm, SourceTree, Eclipse, Paint.NET, TeXstudio, WampServer}
 	\item {\color{accent} Platforms} -- \texttt{Microsoft Windows, Linux (Debian)}
-\end{itemize}
+\end{compactitem}
 
 \subsubsection*{\color{head}Activities and Leadership:}
-\begin{itemize}
+College
+\begin{compactitem}
 	\item {\color{accent} GCC Order of St. George} -- \texttt{Treasurer}
 	\item {\color{accent} GCC ACM Student Chapter} -- \texttt{Treasurer}
 	\item {\color{accent} GCC Computer Science Department} -- \texttt{Grader/TA}
-	\item {\color{accent} GCC Wolverine Marching Band} -- \texttt{Member}
-\end{itemize}
+	\item {\color{accent} GCC Wolverine Marching Band} -- \texttt{3rd Year Member}
+\end{compactitem}
+High School
+\begin{compactitem}
+	\item {\color{accent} INTERalliance of Greater Cincinnati} -- \texttt{IT Careers Camp and TechOlympics}
+	\item {\color{accent} Mason ACM Student Chapter} -- \texttt{Cochair of SIG LAN}
+	\item {\color{accent} William Mason High School Marching Band} -- \texttt{Subsection Leader}
+\end{compactitem}
 
 \end{document}
