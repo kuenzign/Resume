@@ -5,7 +5,6 @@
 \usepackage{multicol} % Used to create multiple columns on a page (or part of a page)
 \usepackage{enumerate} % Allows you to change the numbering
 %\usepackage{fancyhdr} % Allows you to change the page headers and footers.
-%\usepackage{fullpage} % Smaller page margins. If you need further customization, it's probably better to use the geometry package mentioned below.
 \usepackage{hyperref} % Allows you to add hyperlinks to your document.
 \usepackage{subcaption}
 
@@ -14,20 +13,23 @@
 \usepackage[sfdefault, light]{roboto} %Google's Roboto font. Disable this if you don't have it installed on your system
 \usepackage[T1]{fontenc}
 \usepackage[dvipsnames]{xcolor}
+\usepackage{paralist}
+\usepackage{tabto}
+\usepackage{ulem}
+\usepackage{pdfpages}
+\usepackage{nth}
+\usepackage{microtype}
+\usepackage{geometry} %allows you to edit the margins
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\geometry{letterpaper, portrait, margin=0.5in}
 \pagenumbering{gobble} %suppresses page numbering
 \definecolor{main}{RGB}{79, 79, 79}
 \definecolor{head}{RGB}{51, 51, 51}
 \definecolor{head2}{RGB}{64, 64, 64}
 \definecolor{accent}{RGB}{255, 97, 0}
 \color{main}
-
-\usepackage{paralist}
-\usepackage{tabto}
-\usepackage{ulem}
-\usepackage{pdfpages}
-\usepackage{geometry} %allows you to edit the margins
-\geometry{letterpaper, portrait, margin=0.5in}
-%\usepackage[textheight=9.5in,textwidth=7in]{geometry}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -67,6 +69,12 @@
 \begin{compactitem}
 	\item Graded homework for COMP 155 -- \textit{Intro to Computer Science} and COMP 141 -- \textit{Programming I}.
 \end{compactitem}
+\vspace{-4.5mm}
+\subsubsection*{\textnormal{{\color{accent} Development Intern }\color{head} -- Reynolds \& Reynolds -- Dayton, OH	\hfill Summer 2017 -- Present}}
+\vspace{-2mm}
+\begin{compactitem}
+	\item Developed Windows applications using COBOL and Pick/BASIC.
+\end{compactitem}
 
 \subsubsection*{\color{head}Side Projects:}
 \begin{compactitem}
@@ -78,27 +86,20 @@
 
 \subsubsection*{\color{head}Technical Skills:}
 \begin{compactitem}
-	\item {\color{accent} Programming Languages} -- \texttt{C, C++, C\#, Java, Python, SQL, Visual Basic 6.0}
+	\item {\color{accent} Programming Languages} -- \texttt{C, C++, C\#, Java, Python, COBOL, Pick/BASIC, SQL, Visual Basic 6.0}
 	\item {\color{accent} Web-based Languages} -- \texttt{PHP, HTML/CSS}
 	\item {\color{accent} Utilities and Scripting} -- \texttt{Git, LaTeX, AutoHotkey}
-	\item {\color{accent} Libraries and Frameworks} -- \texttt{WinForms, Qt, DirectX, Laravel, Moodle}
-	\item {\color{accent} Software} -- \texttt{Visual Studio, PyCharm, SourceTree, Eclipse, Paint.NET, TeXstudio, WampServer}
+	\item {\color{accent} Libraries and Frameworks} -- \texttt{WinForms, Qt, DirectX, OpenGL, Laravel, Moodle}
+	\item {\color{accent} Software} -- \texttt{Visual Studio, Slack, PyCharm, SourceTree/GitKraken, PuTTY, Microsoft Office, WinSCP, Eclipse, Paint.NET, TeXstudio, WampServer}
 	\item {\color{accent} Platforms} -- \texttt{Microsoft Windows, Linux (Debian)}
 \end{compactitem}
 
 \subsubsection*{\color{head}Activities and Leadership:}
-College
 \begin{compactitem}
 	\item {\color{accent} GCC Order of St. George} -- \texttt{Treasurer}
 	\item {\color{accent} GCC ACM Student Chapter} -- \texttt{Treasurer}
-	\item {\color{accent} GCC Wolverine Marching Band} -- \texttt{3rd Year Member}
+	\item {\color{accent} GCC Wolverine Marching Band} -- \texttt{\nth{4} Year Member}
 	\item {\color{accent} GCC Ham Radio Club} -- \texttt{KE8FGH}
-\end{compactitem}
-High School
-\begin{compactitem}
-	\item {\color{accent} INTERalliance of Greater Cincinnati} -- \texttt{IT Careers Camp and TechOlympics}
-	\item {\color{accent} Mason ACM Student Chapter} -- \texttt{Cochair of SIG LAN}
-	\item {\color{accent} William Mason High School Marching Band} -- \texttt{Subsection Leader}
 \end{compactitem}
 
 \end{document}
